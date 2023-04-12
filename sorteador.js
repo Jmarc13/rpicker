@@ -9,7 +9,7 @@ choices_selected = "";
 
 //Función para mostrar en pantalla help
 function show_help() {
-  const windowFeatures = "left=0,top=0,width=1800,height=1600";
+  const windowFeatures = "left=0,top=0,width=1040,height=720";
   const handle = window.open(
     "help.html",
     "mozillaWindow",
