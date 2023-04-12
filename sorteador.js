@@ -58,6 +58,9 @@ document.getElementById("btnGo").addEventListener("click", e => {
   if (choices.length == 0) {
     alert("Debes introducir opciones antes de sortear!");
     e.preventDefault();
+  } else if (choices.length == 1) {
+    alert("Debes introducir más de una opción para que haya un buen sorteo! ;)");
+    e.preventDefault();
   } else {
     var rand = Math.round(Math.random() * (choices.length-1));
     window.localStorage.setItem("result", choices[rand]);
