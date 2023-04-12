@@ -9,7 +9,6 @@ choices_selected = "";
 
 //Función para mostrar en pantalla help
 function show_help() {
-  alert("Bienvenidos a nuestro Sorteador.");
   const windowFeatures = "left=0,top=0,width=1800,height=1600";
   const handle = window.open(
     "help.html",
